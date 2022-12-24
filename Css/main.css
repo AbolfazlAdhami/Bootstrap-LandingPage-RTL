@@ -1,0 +1,59 @@
+@font-face {
+        font-family: Iranian Sans;
+        src: url("../Font/Iranian\ Sans.ttf") format(".ttf");
+        font-style: normal;
+}
+
+body {
+        font-family: Iranian Sans, sans-serif !important;
+        overflow-x: hidden;
+}
+/* Utilities */
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1,
+p {
+        line-height: 1.8 !important;
+}
+.hover-grow {
+        transition: all 0.3s ease;
+}
+.hover-grow:hover {
+        transform: scale(1.08);
+}
+/*  Header  */
+
+.navbar {
+        transition: all ease-in-out 0.3s;
+}
+.header-scrolled {
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.7);
+}
+/* intro */
+@media screen and (max-width: 992px) {
+        .navbar {
+                background-color: #fff;
+        }
+}
+
+.intro {
+        width: 100%;
+        height: 100vh;
+        background: url("../images/intro/intro-bg.png") top center no-repeat;
+        background-size: cover;
+}
+/* About */
+.content {
+        background-color: #f6f9ff;
+        padding: 4rem;
+}
