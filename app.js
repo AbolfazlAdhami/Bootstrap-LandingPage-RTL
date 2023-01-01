@@ -9,3 +9,8 @@ window.addEventListener("scroll", function () {
                 NAVI.classList.remove("header-scrolled");
         }
 });
+
+let listFooter = document.querySelectorAll("footer .footer-links li a");
+const arrow = "<i class='bx bx-chevron-left'></i>";
+listFooter.insertAdjacentHTML("beforebegin", arrow);
+console.log(listFooter);
